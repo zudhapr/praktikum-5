@@ -1,0 +1,11 @@
+# .dockerignore
+.git
+.venv
+__pycache__/
+*.pyc
+.env
+*.log
+postgres_data/
+
+# build dari folder project
+docker build -t simple-lms:1.0 .
